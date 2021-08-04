@@ -6,20 +6,27 @@ import Projects from './Projects'
 import Contact from './Contact'
 import Experience from './Experience'
 import Blog from './Blog'
-
+import {useState} from 'react'
 
 function App() {
+
+  const [scrollPos, setScrollPos] = useState(0)
+
+  const handleScroll = () => {
+    console.log('scroll')
+  }
+
   return (
-    <div id='root-div'>
+    <div id='root-div' onScroll={handleScroll}>
 
 
 
       <Navbar />
       <About />
-      <Experience />
       <Projects />
-      <Blog />
+      <Experience />
       <Contact />
+      <Blog />
 
     </div>
   );

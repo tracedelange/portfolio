@@ -11,13 +11,13 @@ const Navbar = () => {
 
                 <Link to="About" spy={true} smooth={true} >About</Link>
 
-                <Link to="Experience" spy={true} smooth={true} >Experience</Link>
-
                 <Link to="Projects" spy={true} smooth={true} >Projects</Link>
 
-                <Link to="Blog" spy={true} smooth={true} >Blog</Link>
+                <Link to="Experience" spy={true} smooth={true} >Experience</Link>
 
                 <Link to="Contact" spy={true} smooth={true} >Contact</Link>
+
+                <Link to="Blog" spy={true} smooth={true} >Blog</Link>
 
             {/* <NavLink
             to='/'
