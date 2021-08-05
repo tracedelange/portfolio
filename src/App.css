@@ -30,6 +30,7 @@ html, body {
   justify-content: center;
   /* padding-bottom: 2vh; */
   /* margin-bottom: 5vh; */
+  z-index: 100;
 
 }
 
@@ -40,7 +41,7 @@ html, body {
   margin-left: 5vw;
   margin-right: 5vw;
   margin-top: 2vh;
-  font-size: 1vw;
+  font-size: 1.25vw;
 
   text-decoration: none;
 
@@ -76,7 +77,8 @@ html, body {
 
   /* 222526 */
 /* background-color: #3D494F */
-background: linear-gradient(45deg, #222526, #3D494F);
+/* background: linear-gradient(45deg, #222526, #3D494F); */
+  background: linear-gradient(180deg, #BCE0F1, #7BC2E3, #BCE0F1);
 
 }
 
@@ -85,7 +87,8 @@ background: linear-gradient(45deg, #222526, #3D494F);
 .container {
 
   text-align: center;
-  background: linear-gradient(180deg, #BCE0F1, #7BC2E3, #BCE0F1);
+  background: #3D494F;
+  /* background: linear-gradient(180deg, #BCE0F1, #7BC2E3, #BCE0F1); */
   height: 100vh;
   padding-top: 10vh;
   margin-right: 15%;
@@ -102,9 +105,12 @@ background: linear-gradient(45deg, #222526, #3D494F);
   padding-top: 0%;
   height: 50vw;
 }
+#Blog .sub-header-text p {
+  color:#BCE0F1
+}
 #Blog a {
   /* text-decoration: none; */
-  color:#3D494F
+  color: #7BC2E3;
 }
 #Blog a:hover {
   color: white;
@@ -161,7 +167,10 @@ background: linear-gradient(45deg, #222526, #3D494F);
 
 #About {
   padding-top:4vh;
-  background: linear-gradient(180deg, #7BC2E3, #BCE0F1);
+  /* background: linear-gradient(180deg, #7BC2E3, #BCE0F1); */
+  background: linear-gradient(180deg, #222526, #3D494F);
+
+  
   height: 100vh;
 }
 
@@ -204,6 +213,7 @@ background: linear-gradient(45deg, #222526, #3D494F);
   /* width: 50%; */
   margin-right: 25%;
   margin-left: 25%;
+color: #BCE0F1;
 
   /* text-align: center; */
 }
@@ -245,7 +255,7 @@ background: linear-gradient(45deg, #222526, #3D494F);
   margin-top: 0%;
   /* margin-right: 20vw; */
 
-  color: #3D494F;
+  color: #BCE0F1;
 
 
 }
@@ -263,12 +273,18 @@ background: linear-gradient(45deg, #222526, #3D494F);
  display: flex;
  flex-direction: row;
  align-items: center;
+ color: #BCE0F1;
 
 }
 #framework-list img {
   margin-right: 15px;
   height: auto;
-  width: 3.5vw;
+  width: 3vw;
+  background-color: #BCE0F1;
+  border-style: solid;
+  padding: .5vw;
+  border-width: 5%;
+  border-radius: 10%;
 }
 #webImage img{
   width: 3vw;
@@ -293,8 +309,9 @@ background: linear-gradient(45deg, #222526, #3D494F);
 #Experience {
   height: 100vh;
   /* margin-top: 40vh; */
-  padding-top: 10vh;
+  /* padding-top: 60vh; */
   /* height: 100vh; */
+  
 }
 
 #xp-list {
@@ -303,6 +320,7 @@ background: linear-gradient(45deg, #222526, #3D494F);
   /* justify-content: space-around; */
   flex-direction: column;
   padding: 0%;
+  
 }
 
 .xpItem {
@@ -314,6 +332,7 @@ background: linear-gradient(45deg, #222526, #3D494F);
   margin-left: 20%;
   margin-right: 20%;
   text-align: left;
+  color: #BCE0F1;
   /* width: 60%; */
   /* background-color: #222526; */
 
@@ -321,7 +340,7 @@ background: linear-gradient(45deg, #222526, #3D494F);
 
 .xpItem h3{
   font-size: 1.5vw;
-  color: #222526;
+  color: #BCE0F1;
   margin-bottom: 0%;
   margin-top: 0%;
 }
@@ -329,16 +348,29 @@ background: linear-gradient(45deg, #222526, #3D494F);
 .sub-header-text .xpItem-pos{
   font-size: 1.3vw;
   margin-top: 0%;
-  color: #222526;
+  color: #BCE0F1;
+}
+
+#Experience .sub-header-text h2 {
+
+  padding-top: 0;
+
 }
 
 #Projects {
   padding-top: 0vh;
+  color: #BCE0F1;
+  padding-bottom: 10vh;
+  height: 110vh;
+
 }
 
 .gh-link img{
   width: 2vw;
   height: auto;
+  background-color: #BCE0F1;
+  border-radius: 50%;
+  padding: 2%;
 }
 
 .project-card a .main-project-image {
