@@ -12,7 +12,7 @@ const ProjectList = () => {
         <div id='project-list'>
             {projectArray[0]}
             {projectArray[1]}
-            <div className='break'></div>        
+            {/* <div className='break'></div>         */}
             {projectArray[2]}
             {projectArray[3]}
         </div>

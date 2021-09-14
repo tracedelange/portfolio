@@ -3,7 +3,7 @@ import eater from './assets/images/eater.png'
 import tidepoolSquad from './assets/images/squad.png'
 import CASHsign from './assets/images/sales-console.png'
 import wbcSales from './assets/images/logo.png'
-
+import bfb from './assets/images/bfb.png'
 
 const projects = [
     {
@@ -53,12 +53,12 @@ const projects = [
     },
     {
         id: 4,
-        name: 'Coming Soon',
-        description: 'Interactive TSP visualization? Flex that COMP Sci knowledge...',
+        name: 'Money Talks',
+        description: 'A Social Media scraper targeted towards monitoring frequency of stock market menetions',
         githubURL: '',
         siteURL: '',
-        passiveImage: placeholder,
-        activeImage: eater,
+        passiveImage: bfb,
+        activeImage: bfb,
         tools: [
             'JavaScript',
             'JSON-Server'

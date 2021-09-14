@@ -42,24 +42,24 @@ html, body {
   margin-right: 5vw;
   margin-top: 2vh;
   font-size: 1.25vw;
-
+  
   text-decoration: none;
-
+  
   color: white;
-
+  
 }
 
 #navigation a:hover {
-
+  
   color: black;
   cursor: pointer;
   
 }
 
 .image-container {
-
+  
   height: 10vh;
-
+  
 }
 
 
@@ -69,36 +69,45 @@ html, body {
   height: auto;
   /*
   overflow: hidden; */
-
+  
   object-fit: cover;
 }
 
 #root-div {
-
+  
   /* 222526 */
-/* background-color: #3D494F */
-/* background: linear-gradient(45deg, #222526, #3D494F); */
-  background: linear-gradient(180deg, #BCE0F1, #7BC2E3, #BCE0F1);
-
+  /* background-color: #3D494F */
+  /* background: linear-gradient(45deg, #222526, #3D494F); */
+  /* background: linear-gradient(180deg, #BCE0F1, #7BC2E3, #BCE0F1); */
+  
+  background-color: #22333B;
+  height: 98vh;
+  width: 100vw - 2vh;
+  
+  border-color: #2D434E;
+  border-top-width: 1vh;
+  border-bottom-width: 1vh;
+  border-left-width: 1vh;
+  border-right-width: 1vh;
+  border-style: solid;
+  border-radius: 0%;
+  
 }
 
 
 
 .container {
-
+  position: absolute;
   text-align: center;
-  background: #3D494F;
-  /* background: linear-gradient(180deg, #BCE0F1, #7BC2E3, #BCE0F1); */
-  height: 100vh;
-  padding-top: 10vh;
-  margin-right: 15%;
-  margin-left: 15%;
+  /* margin-right: 15%; */
+  /* margin-left: 15%; */
+  top: 10%;
+
 }
 
 .container h2 {
   margin: 0%;
-  padding-top: 7vh;
-
+  /* padding-top: 7vh; */
 }
 
 #Blog {
@@ -122,29 +131,48 @@ html, body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+
+}
+
+#project-list-header {
+
+  margin-bottom: 2%;
+  /* align-self: left; */
+  /* margin-left: 20%; */
+  width: 40%;
+
 }
 
 .project-card {
 
   /* background-color: white; */
   /* min-height: 120%; */
-  width: 30%;
+  /* width: 20%; */
   /* height */
   /* height: auto; */
-  margin-right: 1%;
-  margin-left: 1%;
-  margin-top: 2%;
-  padding-top: 4vh;
-  margin-bottom: 0%;
-  
+  /* margin-right: 1%; */
+  /* margin-left: 1%; */
+  /* margin-top: 2%; */
+  /* padding-top: 4vh; */
+  /* margin-bottom: 0%; */
+  /* display: flex; */
 }
 .project-card img {
-  width: 20%;
+  /* align-self: center; */
+  width: 10%;
   height: auto;
 }
 
+.project-card h3 {
+  font-size: 3vmin;
+}
+.project-card h4 {
+  font-size: 1.75vmin;
+}
+
+
 #title {
-  font-size: 7vw;
+  font-size: 12vmin;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -155,9 +183,9 @@ html, body {
 #title h3 {
   margin-bottom: 0%;
   margin-top: 0%;
-  margin-right: 20vw;
+  margin-right: 40vmin;
   /* color: linear-gradient(to left top, #BCE0F1, #7BC2E3); */
-  color: white;
+  color: #F2F4F3;
 
 }
 #title #bottom {
@@ -166,12 +194,8 @@ html, body {
 }
 
 #About {
-  padding-top:4vh;
-  /* background: linear-gradient(180deg, #7BC2E3, #BCE0F1); */
-  background: linear-gradient(180deg, #222526, #3D494F);
+  /* padding-top:4vh; */
 
-  
-  height: 100vh;
 }
 
 #information {
@@ -189,6 +213,12 @@ html, body {
   font-size: 2vw;
 
 
+}
+
+#more-about button a {
+
+ text-decoration: none;
+  color: black;
 }
 
 #contact-header-clickable:hover {
@@ -213,7 +243,7 @@ html, body {
   /* width: 50%; */
   margin-right: 25%;
   margin-left: 25%;
-color: #BCE0F1;
+color: #F2F4F3;
 
   /* text-align: center; */
 }
@@ -236,14 +266,14 @@ color: #BCE0F1;
 }
 
 .white-header{
-  font-size: 4vw;
-  color: white;
+  font-size: 3vw;
+  color: #F2F4F3;
 }
 
 #more-about {
   padding-top: 5vh;
   /* margin-top: 30vh; */
-  margin-bottom: 40vh;
+  /* margin-bottom: 40vh; */
 }
 
 #more-about p {
@@ -255,7 +285,7 @@ color: #BCE0F1;
   margin-top: 0%;
   /* margin-right: 20vw; */
 
-  color: #BCE0F1;
+  color: #F2F4F3;
 
 
 }
@@ -302,7 +332,7 @@ color: #BCE0F1;
   margin-top: 0%;
   /* margin-right: 20vw; */
 
-  color: #3D494F;
+  color: #F2F4F3;
 
 }
 
@@ -332,7 +362,7 @@ color: #BCE0F1;
   margin-left: 20%;
   margin-right: 20%;
   text-align: left;
-  color: #BCE0F1;
+  color: #F2F4F3;
   /* width: 60%; */
   /* background-color: #222526; */
 
@@ -358,19 +388,20 @@ color: #BCE0F1;
 }
 
 #Projects {
-  padding-top: 0vh;
-  color: #BCE0F1;
-  padding-bottom: 10vh;
-  height: 110vh;
-
+  /* padding-top: 0vh; */
+  color: #F2F4F3;
+  /* padding-bottom: 10vh; */
+  /* height: 110vh; */
+  margin-left: 10%;
+  width: 80%;
 }
 
 .gh-link img{
-  width: 2vw;
+  width: 3vw;
   height: auto;
-  background-color: #BCE0F1;
+  background-color: #F2F4F3;
   border-radius: 50%;
-  padding: 2%;
+  /* padding: 2%; */
 }
 
 .project-card a .main-project-image {
