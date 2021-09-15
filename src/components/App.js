@@ -1,13 +1,12 @@
 import '../App.css';
 import Navbar from './Navbar'
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch, Redirect, Link } from "react-router-dom";
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 import Experience from './Experience'
-import Blog from './Blog'
-import { useState } from 'react'
 
+import logo from '../assets/delange-dev.png'
 function App() {
 
   // const [scrollPos, setScrollPos] = useState(0)
@@ -19,12 +18,15 @@ function App() {
   return (
     <div id='root-div'>
 
-        {/* <Navbar /> */}
-        {/* <Projects /> */}
-        {/* <Experience /> */}
-        {/* <Contact /> */}
-        {/* <Blog />  */}
+      {/* <Navbar /> */}
+      {/* <Projects /> */}
+      {/* <Experience /> */}
+      {/* <Contact /> */}
+      {/* <Blog />  */}
+      <Link to='/home'>
+        <img id='logo' src={logo} alt='logo cup of coffee' />
 
+      </Link>
       <Switch>
         <Route exact path="/projects">
           <Projects />
@@ -45,7 +47,7 @@ function App() {
           <About />
         </Route>
       </Switch>
-     </div>
+    </div>
   );
 }
 
