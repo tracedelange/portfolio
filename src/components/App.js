@@ -42,7 +42,7 @@ function App() {
           {/* <Skills /> */}
         </Route>
         <Route path="/">
-          <Redirect to="/home"/>
+          <About />
         </Route>
       </Switch>
      </div>

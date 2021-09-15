@@ -1,19 +1,27 @@
 import React from 'react'
 import XPCard from './XPCard'
+import ExTab from './ExTab'
+import { Link } from 'react-router-dom'
 
+import { Button } from '@material-ui/core'
+import { makeStyles } from '@material-ui/styles'
+
+const useStyles = makeStyles((theme) => ({
+    linkButton: {
+        fontSize: '2vmin',
+        backgroundColor: '#F2F4F3',
+    },
+    link: {
+        color: 'black',
+        textDecoration: 'none',
+    }
+}));
 const Experience = () => {
+    const classes = useStyles()
     return (
-        <div id="Experience" className="container">
-            <div className='sub-header-text'>
-                <h2 className="white-header" >Where I've been</h2>
-                {/* <p>Where I've Been</p> */}
-                <ul id='xp-list'>
-                    <XPCard title={"Univeristy of Oregon"} role={"B.S. Biology - Awarded January 2020"} />
-                    <XPCard title={"American Preclinical Services"} role={"Pathology Technician - 9/2021-7/2021"} />
-                    <XPCard title={"Flatiron School"} role={"Software Enginnering Student"} />
-                    <XPCard title={"Freelance Developer"} role={""}/>
-                </ul>
-            </div>
+        <div id='Projects' className="container sub-header-text" >
+            <h2 id='experience-list-header' className="white-header">Education & Work History</h2>
+            <ExTab />
         </div>
     )
 }

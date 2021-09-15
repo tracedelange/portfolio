@@ -143,6 +143,16 @@ html, body {
 
 }
 
+#experience-list-header {
+  margin-bottom: 2%;
+  width: 50%
+}
+
+.MuiDivider-root hr {
+  color: white;
+  background-color: white;
+}
+
 .project-card {
 
   /* background-color: white; */
@@ -338,41 +348,16 @@ color: #F2F4F3;
 
 #Experience {
   height: 100vh;
-  /* margin-top: 40vh; */
-  /* padding-top: 60vh; */
-  /* height: 100vh; */
-  
 }
 
-#xp-list {
-  list-style: none;
-  display: flex;
-  /* justify-content: space-around; */
-  flex-direction: column;
-  padding: 0%;
-  
+.xp-item h3 {
+  margin: 0%;
 }
-
-.xpItem {
-  /* margin: 3vw; */
-  /* margin-left: 3vw; */
-  margin-bottom: 3vh;
-  /* margin: 10px; */
-  padding: 15px;
-  margin-left: 20%;
-  margin-right: 20%;
-  text-align: left;
-  color: #F2F4F3;
-  /* width: 60%; */
-  /* background-color: #222526; */
-
+.xp-item h5 {
+  margin: 2.5%;
 }
-
-.xpItem h3{
-  font-size: 1.5vw;
-  color: #BCE0F1;
-  margin-bottom: 0%;
-  margin-top: 0%;
+.xp-item p {
+  font-size: 2.5vmin;
 }
 
 .sub-header-text .xpItem-pos{

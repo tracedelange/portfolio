@@ -5,7 +5,9 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import { Link } from 'react-router-dom'
 
+import { Button } from '@material-ui/core'
 
 
 function TabPanel(props) {
@@ -68,7 +70,17 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '2vmin',
     margin: '5vmin',
     backgroundColor: '#F2F4F3'
-},
+  },
+    linkButton: {
+    fontSize: '2vmin',
+    margin: '5vmin',
+    backgroundColor: '#F2F4F3',
+    marginTop: '0'
+  },
+  link: {
+    color: 'black',
+    textDecoration: 'none',
+}
 }));
 
 export default function VerticalTabs({projectArray}) {
@@ -93,6 +105,11 @@ export default function VerticalTabs({projectArray}) {
         <Tab className={classes.tabs} label="Money Talks" {...a11yProps(2)} />
         <Tab className={classes.tabs} label="Sales Console" {...a11yProps(1)} />
         <Tab className={classes.tabs} label="Digital Tidepool" {...a11yProps(3)} />
+        <Link className={classes.link} to='/experience'>
+          <Button variant="contained" className={classes.linkButton}>
+            Experience
+          </Button>
+        </Link>
       </Tabs>
       <TabPanel className={classes.tabContent} value={value} index={0}>
         {projectArray[0]}
