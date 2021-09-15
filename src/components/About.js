@@ -48,19 +48,19 @@ const About = () => {
             <div id='more-about'>
                 <p>I am a Full-Stack Software Engineer experienced with data processing and web development.</p>
                 <Button variant="contained" className={classes.linkButton}>
-                    <Link to='/projects'>Projects</Link>
+                    <Link to='/portfolio/projects'>Projects</Link>
                 </Button>
                 <Button variant="contained" className={classes.linkButton}>
-                    <Link to='/experience'>Experience</Link>
+                    <Link to='/portfolio/experience'>Experience</Link>
                 </Button>
                 <Button variant="contained" className={classes.linkButton}>
-                    <Link to='/skills'>Skills</Link>
+                    <Link to='/portfolio/skills'>Skills</Link>
                 </Button>
                 <Button variant="contained" className={classes.linkButton}>
-                    <Link to='/contact'>Contact</Link>
+                    <Link to='/portfolio/contact'>Contact</Link>
                 </Button>
                 <Button variant="contained" className={classes.linkButton}>
-                    <Link to='/blog'>Blog</Link>
+                    <Link to='/portfolio/blog'>Blog</Link>
                 </Button>
                 {/* <ul id='framework-list'>
                         <li id='webImage'><img src={webImage} alt='web basics' /> HTML, CSS, JavaScript</li>

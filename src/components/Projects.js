@@ -32,7 +32,7 @@ const Projects = () => {
             <h2 id='project-list-header' className="white-header">Some of my best work</h2>
             <TabComp projectArray={projectArray}/>
             <Button variant="contained" className={classes.linkButton}>
-                    <Link className={classes.link} to='/experience'>Experience</Link>
+                    <Link className={classes.link} to='/portfolio/experience'>Experience</Link>
             </Button>
         </div>
     )

@@ -26,23 +26,23 @@ function App() {
         {/* <Blog />  */}
 
       <Switch>
-        <Route exact path="/projects">
+        <Route exact path="/portfolio/projects">
           <Projects />
         </Route>
-        <Route exact path="/experience">
+        <Route exact path="/portfolio/experience">
           <Experience />
         </Route>
-        <Route exact path="/home">
+        <Route exact path="/portfolio/home">
           <About />
         </Route>
-        <Route exact path="/home">
+        <Route exact path="/portfolio/home">
           <About />
         </Route>
-        <Route exact path="/skills">
+        <Route exact path="/portfolio/skills">
           {/* <Skills /> */}
         </Route>
         <Route path="/">
-          <Redirect to="/home"/>
+          <Redirect to="/portfolio/home"/>
         </Route>
       </Switch>
      </div>
