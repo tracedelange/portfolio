@@ -107,14 +107,23 @@ html, body {
   justify-content: space-around;
 }
 
+.skill-list-column {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-center;
+
+}
+
 .skill-list-column li{
 
+  
   font-size: 3vmin;
   color: #F2F4F3;
-  list-style: none;
   margin-top: 1vmin;
   margin-bottom: 1vmin;
-
+  justify-content: space-evenly;
+  /* align-items: flex-start */
+  list-style: none;
 }
 
 .container {
@@ -282,6 +291,22 @@ color: #F2F4F3;
   /* text-align: center; */
 }
 
+.freelance-list li {
+  list-style: none;
+  text-align: left;
+  font-size: 3vmin;
+}
+.freelance-list li a{
+  color: #F2F4F3;
+  text-decoration: none;
+}
+.freelance-list li ul li{
+  color: #F2F4F3;
+  list-style:square;
+  font-size: 2vmin;
+}
+
+
 #Contact a {
   font-size: 2vmin;
   text-decoration: none;
@@ -420,34 +445,60 @@ color: #F2F4F3;
 }
 
 
+
 .toolBox {
   list-style: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content:center;
+  padding: 0%;
 }
 
 .toolBox li {
-  background-color: white;
+  background-color: #22333B;
   border-style: solid;
   border-radius: 20px;
   border-width: 1px;
   border-color: black;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 .toolBox li p{
+  color: #F2F4F3;
   font-size: .75vw;
   margin-left: .5vw;
   margin-right: .5vw;
 }
 
-#logo {
+.side-image-container {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 3%;
   left: 2%;
+  z-index: 10;
+
+}
+
+.side-image {
   width: 7vmin;
   height: auto;
+}
 
+#github-sidebar {
+
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 25%;
+  width: 6vmin;
+
+}
+
+#linkedin-sidebar {
+
+  margin-top: 25%;
+  width: 6vmin;
+  background-color: white;
+  border-radius: 25%;
 }

@@ -71,23 +71,13 @@ const About = () => {
                         Contact
                     </Button>
                 </Link>
-                <Link className={classes.link} to='/blog'>
+                <a href='https://tracedelange.github.io/' className={classes.link} >
                     <Button variant="contained" className={classes.linkButton}>
                         Blog
                     </Button>
-                </Link>
-                {/* <ul id='framework-list'>
-                        <li id='webImage'><img src={webImage} alt='web basics' /> HTML, CSS, JavaScript</li>
-                        <li><img src={reactImage} alt='web basics' />React</li>
-                        <li><img src={rubyImage} alt='web basics' />Ruby on Rails</li>
-                        <div className="break"></div>
-                        <li><img src={pythonImage} alt='web basics' />Python</li>
-                        <li><img src={googleImage} alt='web basics' />Firebase</li>
-                        <li><img src={herokuImage} alt='web basics' />Heroku</li>
-                    </ul> */}
-            </div>
-            {/* </Fade> */}
+                </a>
 
+            </div>
         </div>
     )
 }

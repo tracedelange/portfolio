@@ -17,11 +17,10 @@ const ProjectCard = ({data}) => {
             <a href={data.siteURL}><img className='main-project-image' src={data.passiveImage}></img></a>
             <h3>{data.name}</h3>
             <h4>{data.description}</h4>
-            {/* <ul className='toolBox'> */}
-                {/* {toolArray} */}
-            {/* </ul> */}
+            <ul className='toolBox'>
+                {toolArray}
+            </ul>
             <a className='gh-link' href={data.githubURL}><img src={github} /></a>
-
         </div>
     )
 }

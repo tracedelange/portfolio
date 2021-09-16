@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     height: '100%',
     fontSize: '5vmin',
-    backgroundColor: '#22333B',
+    backgroundColor: '#2D434E',
     width: '100%',
   },
   tabs: {
@@ -150,25 +150,62 @@ export default function VerticalTabs() {
           <h5>Employed 8/2020 - 6/2021</h5>
           <p>Function as a member of a highly efficient team responsible for conducting a wide range of duties in the support of proprietary preclinical medical device trials for over 300 clients.
             Core responsibilities include performance of gross pathological inspections/necropsies, collection and processing of data in accordance with GLP standards and practice high-quality FDA complaint documentation.
-            </p>
-            <br/>
+          </p>
+          <br />
           <p>Relevant software duties include the use of Python in support of data management/archival, as well as debugging lab equipment legacy code (Bash, Visual Basic) </p>
         </div>
       </TabPanel>
       <TabPanel className={classes.tabContent} value={value} index={2}>
-      <div className='xp-item'>
+        <div className='xp-item'>
           <h3>Flatiron School</h3>
           <h5>Software Engineering Student</h5>
           <Divider className={classes.divider} />
           <h5>Enrolled 6/2021 - Anticipated Graduation 11/2021</h5>
-          <p>Complete comprehensive training focused on software engineering in the context of modern web infrastructure.
-            Coursework includes extensive lessons developing full-stack applications using in-demand frameworks including React, Rails and Flask.
-            As well as over 1500 hours of training in modern frameworks, a significant time is spent mastering OOP, RESTful and DRY practices.
-            </p>
+          <p>Complete comprehensive software engineering coursework in the context of modern web infrastructure.
+            Coursework includes developing full-stack applications using in-demand frameworks such as React, Rails and Flask as well as 1500+ hours of hands-on experience building web-based applications and mastering OOP, RESTful and DRY practices.
+          </p>
         </div>
       </TabPanel>
       <TabPanel className={classes.tabContent} value={value} index={3}>
-        { }
+        <div className='xp-item'>
+          <h3>Freelance Developer</h3>
+          <Divider className={classes.divider} />
+          <h5> 1/2020 - Present</h5>
+          <ul className="freelance-list">
+            <li>
+              <a href='https://apps.apple.com/us/app/impromptu-whats-happening/id1560222075'>Impromptu</a>
+              <ul>
+                <li>
+                  Created a fully functional admin portal with CRUD capabilities as a contracted consultant.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href='https://find.waconiabrewing.com/'>Waconia Brewing Company</a>
+              <ul>
+                <li>
+                  Developed backend infrastructure to autonomously process sales reports from three unique distribution sources into a firebase server.
+                </li>
+                <li>
+                  Developed a customer-facing front-end tool which displays geolocation information about where to locate products based on recent sales reports, serving 1000+ users per month on average.
+                </li>
+
+              </ul>
+            </li>
+            <li>
+              <a href='https://www.cleanplanetproject.org/'>Clean Planet Project</a>
+              <ul>
+                <li>
+                  Developed backend python scripts to aggregate database statistics.
+                </li>
+                <li>
+                  Created API's to serve database statistics to mobile app and organization website.
+                </li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
       </TabPanel>
     </div>
   );

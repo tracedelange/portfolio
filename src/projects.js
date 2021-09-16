@@ -9,7 +9,7 @@ const projects = [
     {
         id: 3,
         name: 'W.B.C. Sales Map',
-        description: 'A customer-facing tool designed for a local microbrewery used to inform customers of where to locate distributed products.',
+        description: 'A customer-facing tool designed for a microbrewery used to inform customers of where to locate distributed products.',
         githubURL: 'https://github.com/tracedelange/wbc-sales-map',
         siteURL: 'https://find.waconiabrewing.com/',
         passiveImage: wbcSales,
@@ -48,20 +48,25 @@ const projects = [
         activeImage: eater,
         tools: [
             'JavaScript',
-            'JSON-Server'
+            'JSON-Server',
+            'Heroku'
         ]
     },
     {
         id: 4,
         name: 'Money Talks',
-        description: 'A Social Media scraper targeted towards monitoring frequency of stock market menetions',
-        githubURL: '',
-        siteURL: '',
+        description: 'A Social Media scraper targeted towards monitoring frequency of stock market mentions',
+        githubURL: 'https://github.com/tracedelange/money-talks-front-end',
+        siteURL: 'https://money-talks-front-end.herokuapp.com/',
         passiveImage: bfb,
         activeImage: bfb,
         tools: [
-            'JavaScript',
-            'JSON-Server'
+            'React',
+            'Python',
+            'PostgreSQL',
+            'Sinatra',
+            'Raspbian CronTab',
+            'Heroku'
         ]
     },
 ]

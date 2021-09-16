@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     height: '100%',
     fontSize: '5vmin',
-    backgroundColor: '#22333B',
+    backgroundColor: '#2D434E',
     width: '100%',
   },
   tabs: {
