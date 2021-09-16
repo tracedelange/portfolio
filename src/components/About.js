@@ -18,7 +18,8 @@ const useStyles = makeStyles((theme) => ({
     linkButton: {
         fontSize: '2vmin',
         margin: '5vmin',
-        backgroundColor: '#F2F4F3'
+        backgroundColor: '#F2F4F3',
+        textDecoration: 'none'
     },
 }));
 
@@ -47,21 +48,31 @@ const About = () => {
 
             <div id='more-about'>
                 <p>I am a Full-Stack Software Engineer experienced with data processing and web development.</p>
-                <Button variant="contained" className={classes.linkButton}>
-                    <Link to='/projects'>Projects</Link>
-                </Button>
-                <Button variant="contained" className={classes.linkButton}>
-                    <Link to='/experience'>Experience</Link>
-                </Button>
-                <Button variant="contained" className={classes.linkButton}>
-                    <Link to='/skills'>Skills</Link>
-                </Button>
-                <Button variant="contained" className={classes.linkButton}>
-                    <Link to='/contact'>Contact</Link>
-                </Button>
-                <Button variant="contained" className={classes.linkButton}>
-                    <Link to='/blog'>Blog</Link>
-                </Button>
+                <Link to='/projects'>
+                    <Button variant="contained" className={classes.linkButton}>
+                        Projects
+                    </Button>
+                </Link>
+                <Link to='/experience'>
+                    <Button variant="contained" className={classes.linkButton}>
+                        Experience
+                    </Button>
+                </Link>
+                <Link to='/skills'>
+                    <Button variant="contained" className={classes.linkButton}>
+                        Skills
+                    </Button>
+                </Link>
+                <Link to='/contact'>
+                    <Button variant="contained" className={classes.linkButton}>
+                        Contact
+                    </Button>
+                </Link>
+                <Link to='/blog'>
+                    <Button variant="contained" className={classes.linkButton}>
+                        Blog
+                    </Button>
+                </Link>
                 {/* <ul id='framework-list'>
                         <li id='webImage'><img src={webImage} alt='web basics' /> HTML, CSS, JavaScript</li>
                         <li><img src={reactImage} alt='web basics' />React</li>

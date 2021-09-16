@@ -7,6 +7,9 @@ import Contact from './Contact'
 import Experience from './Experience'
 
 import logo from '../assets/delange-dev.png'
+import steamingLogo from '../assets/dd-steaming.gif'
+
+
 function App() {
 
   // const [scrollPos, setScrollPos] = useState(0)
@@ -24,7 +27,7 @@ function App() {
       {/* <Contact /> */}
       {/* <Blog />  */}
       <Link to='/home'>
-        <img id='logo' src={logo} alt='logo cup of coffee' />
+        <img id='logo' src={steamingLogo} alt='logo cup of coffee' />
 
       </Link>
       <Switch>
