@@ -21,6 +21,9 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: '#F2F4F3',
         textDecoration: 'none'
     },
+    link: {
+        textDecoration: 'none'
+    }
 }));
 
 
@@ -48,27 +51,27 @@ const About = () => {
 
             <div id='more-about'>
                 <p>I am a Full-Stack Software Engineer experienced with data processing and web development.</p>
-                <Link to='/projects'>
+                <Link className={classes.link} to='/projects'>
                     <Button variant="contained" className={classes.linkButton}>
                         Projects
                     </Button>
                 </Link>
-                <Link to='/experience'>
+                <Link className={classes.link} to='/experience'>
                     <Button variant="contained" className={classes.linkButton}>
                         Experience
                     </Button>
                 </Link>
-                <Link to='/skills'>
+                <Link className={classes.link} to='/skills'>
                     <Button variant="contained" className={classes.linkButton}>
                         Skills
                     </Button>
                 </Link>
-                <Link to='/contact'>
+                <Link className={classes.link} to='/contact'>
                     <Button variant="contained" className={classes.linkButton}>
                         Contact
                     </Button>
                 </Link>
-                <Link to='/blog'>
+                <Link className={classes.link} to='/blog'>
                     <Button variant="contained" className={classes.linkButton}>
                         Blog
                     </Button>

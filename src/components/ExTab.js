@@ -123,7 +123,7 @@ export default function VerticalTabs() {
           label="freelance development"
           {...a11yProps(3)} />
 
-        <Link className={classes.link} to='/projects'>
+        <Link className={classes.link} to='/skills'>
           <Button variant="contained" className={classes.linkButton}>
             Skills
           </Button>
