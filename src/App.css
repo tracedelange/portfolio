@@ -346,9 +346,8 @@ color: #F2F4F3;
   /* margin-right: 20vw; */
 
   color: #F2F4F3;
-
-
 }
+
 
 #framework-list {
   list-style: none;
@@ -358,13 +357,13 @@ color: #F2F4F3;
   /* align-content: center; */
 }
 #framework-list li {
- font-size: 1.5vw;
- margin: 1.5vw;
- display: flex;
- flex-direction: row;
- align-items: center;
- color: #BCE0F1;
-
+  font-size: 1.5vw;
+  margin: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #BCE0F1;
+  
 }
 #framework-list img {
   margin-right: 15px;
@@ -386,14 +385,14 @@ color: #F2F4F3;
 }
 
 .sub-header-text p {
-
+  
   font-size: 2vw;
   margin-bottom: 0%;
   margin-top: 0%;
   /* margin-right: 20vw; */
-
+  
   color: #F2F4F3;
-
+  
 }
 
 #Experience {
@@ -417,9 +416,9 @@ color: #F2F4F3;
 }
 
 #Experience .sub-header-text h2 {
-
+  
   padding-top: 0;
-
+  
 }
 
 #Projects {
@@ -478,27 +477,38 @@ color: #F2F4F3;
   top: 3%;
   left: 2%;
   z-index: 10;
-
+  
 }
 
 .side-image {
   width: 7vmin;
   height: auto;
+  /* margin-left: -3px; */
+}
+
+#dd-sidebar {
+  margin-left: -2px
 }
 
 #github-sidebar {
-
+  
   background-color: white;
   border-radius: 50%;
   margin-top: 25%;
-  width: 6vmin;
-
+  width: 5vmin;
+  margin-left: -2px;
 }
 
 #linkedin-sidebar {
-
+  
   margin-top: 25%;
-  width: 6vmin;
+  width: 4.5vmin;
   background-color: white;
   border-radius: 25%;
+}
+#resume-sidebar {
+  background-color: white;
+  width: 4.5vmin;
+  margin-top: 25%;
+  border-radius: 15%;
 }

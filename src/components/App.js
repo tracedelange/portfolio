@@ -13,6 +13,8 @@ import steamingLogo from '../assets/dd-steaming.gif'
 import staticLogo from '../assets/dd-no-steam.png'
 import github from '../assets/icons/github-240.png'
 import linkedin from '../assets/icons/linkedin.png'
+import resume from '../assets/icons/document.png'
+import resumePDF from '../assets/Trace_DeLange.pdf'
 
 function App() {
 
@@ -24,32 +26,33 @@ function App() {
 
   const [logoHover, setLogoHover] = useState(false)
 
-  console.log(logoHover)
+  // console.log(logoHover)
   return (
     <div id='root-div'>
 
-      {/* <Navbar /> */}
-      {/* <Projects /> */}
-      {/* <Experience /> */}
-      {/* <Contact /> */}
-      {/* <Blog />  */}
       <div className='side-image-container'>
-      <Link to='/home' onMouseOver={()=>{setLogoHover(true)}} onMouseLeave={()=>{setLogoHover(false)}}>
+        <Link to='/home' onMouseOver={() => { setLogoHover(true) }} onMouseLeave={() => { setLogoHover(false) }}>
 
-        {logoHover ? 
-        <img className='side-image' src={steamingLogo} alt='logo cup of coffee' />
-        :
-        <img className='side-image' src={staticLogo} alt='logo cup of coffee with steam!' />
-        }
-      </Link>
+          {logoHover ?
+            <img id='dd-sidebar' className='side-image' src={steamingLogo} alt='logo cup of coffee' />
+            :
+            <img id='dd-sidebar' className='side-image' src={staticLogo} alt='logo cup of coffee with steam!' />
+          }
+        </Link>
 
-      <a href='https://github.com/tracedelange/'>
-        <img id='github-sidebar' alt='GitHub' className='side-image' src={github} />
-      </a>
-      <a href='https://www.linkedin.com/in/trace-delange-991067169/'>
-        <img id='linkedin-sidebar' alt='LinkedIn' className='side-image' src={linkedin} />
-      </a>
+
+        <a href={resumePDF}>
+          <img id='resume-sidebar' alt='Resume' className='side-image' src={resume} />
+        </a>
+
+        <a href='https://github.com/tracedelange/'>
+          <img id='github-sidebar' alt='GitHub' className='side-image' src={github} />
+        </a>
+        <a href='https://www.linkedin.com/in/trace-delange-991067169/'>
+          <img id='linkedin-sidebar' alt='LinkedIn' className='side-image' src={linkedin} />
+        </a>
       </div>
+
 
       <Switch>
         <Route exact path="/projects">
