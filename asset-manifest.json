@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.071a923e.chunk.css",
-    "main.js": "/static/js/main.dac145d9.chunk.js",
-    "main.js.map": "/static/js/main.dac145d9.chunk.js.map",
+    "main.js": "/static/js/main.02288c58.chunk.js",
+    "main.js.map": "/static/js/main.02288c58.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.18772430.js",
     "runtime-main.js.map": "/static/js/runtime-main.18772430.js.map",
     "static/js/2.36901940.chunk.js": "/static/js/2.36901940.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.071a923e.chunk.css.map": "/static/css/main.071a923e.chunk.css.map",
     "static/js/2.36901940.chunk.js.LICENSE.txt": "/static/js/2.36901940.chunk.js.LICENSE.txt",
-    "static/media/Trace_DeLange.6b0ef4ac.pdf": "/static/media/Trace_DeLange.6b0ef4ac.pdf",
+    "static/media/Trace_DeLange.451dedd9.pdf": "/static/media/Trace_DeLange.451dedd9.pdf",
     "static/media/background.d84e303a.jpg": "/static/media/background.d84e303a.jpg",
     "static/media/dd-steaming.38b6bffc.gif": "/static/media/dd-steaming.38b6bffc.gif",
     "static/media/delange-dev.24f90efe.png": "/static/media/delange-dev.24f90efe.png",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.18772430.js",
     "static/js/2.36901940.chunk.js",
     "static/css/main.071a923e.chunk.css",
-    "static/js/main.dac145d9.chunk.js"
+    "static/js/main.02288c58.chunk.js"
   ]
 }
