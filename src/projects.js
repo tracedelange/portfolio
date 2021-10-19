@@ -5,6 +5,7 @@ import CASHsign from './assets/images/sales-console.png'
 import wbcSales from './assets/images/logo.png'
 import bfb from './assets/images/bfb.png'
 import NN from './assets/images/NN.png'
+import MA from '../assets/images/MA.png'
 
 const projects = [
     {
@@ -92,8 +93,8 @@ const projects = [
         description: 'A social platform based around reviewing and rating user submitted subjects like movies, books, places and experiences.',
         githubURL: 'https://github.com/tracedelange/monster-audience-web',
         siteURL: 'https://monster-audience-web.herokuapp.com/landing',
-        passiveImage: NN,
-        activeImage: NN,
+        passiveImage: MA,
+        activeImage: MA,
         tools: [
             'React',
             'Rails',
