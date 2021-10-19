@@ -202,8 +202,7 @@ export default function VerticalTabs() {
           <h5>B.S. Biological Sciences</h5>
           <Divider className={classes.divider} />
           <h5>Graduated March, 2020</h5>
-          <p>Coursework focused heavily on scientific data analysis, statistics and critical reasoning.
-            Relevant technologies ephasised inluded Matlab, Python (Numpy, Pandas, MatplotLib, etc.), and the full Microsoft Office Suite </p>
+          <p>Coursework focused heavily on scientific data analysis, statistics and critical reasoning. Relevant technologies emphasised included Matlab, Python (Numpy, Pandas, MatplotLib, etc.), and the full Microsoft Office Suite</p>
           <br />
           {/* <p>In addition to analytical skills, </p> */}
         </div>

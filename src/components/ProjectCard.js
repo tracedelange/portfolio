@@ -14,8 +14,9 @@ const ProjectCard = ({data}) => {
     return (
         <div className='project-card'>
 
-            <a href={data.siteURL}><img className='main-project-image' src={data.passiveImage}></img></a>
+            <a href={data.siteURL}><img className='main-project-image' src={data.passiveImage}></img>
             <h3>{data.name}</h3>
+            </a>
             <h4>{data.description}</h4>
             <ul className='toolBox'>
                 {toolArray}

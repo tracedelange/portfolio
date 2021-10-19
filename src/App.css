@@ -210,6 +210,20 @@ html, body {
   font-size: 1.75vmin;
 }
 
+.project-card a h3 {
+  color: white;
+  text-decoration: none;
+}
+/* .project-card a:hover {
+  opacity: 0.7;
+} */
+.project-card a h3:hover {
+  opacity: 0.7;
+}
+
+.project-card a {
+  text-decoration: none;
+}
 
 #title {
   font-size: 12vmin;

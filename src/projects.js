@@ -4,6 +4,7 @@ import tidepoolSquad from './assets/images/squad.png'
 import CASHsign from './assets/images/sales-console.png'
 import wbcSales from './assets/images/logo.png'
 import bfb from './assets/images/bfb.png'
+import NN from './assets/images/NN.png'
 
 const projects = [
     {
@@ -55,7 +56,7 @@ const projects = [
     {
         id: 4,
         name: 'Money Talks',
-        description: 'A Social Media scraper targeted towards monitoring frequency of stock market mentions',
+        description: 'A Social Media scraper targeted towards monitoring frequency of stock market mentions.',
         githubURL: 'https://github.com/tracedelange/money-talks-front-end',
         siteURL: 'https://money-talks-front-end.herokuapp.com/',
         passiveImage: bfb,
@@ -66,6 +67,39 @@ const projects = [
             'PostgreSQL',
             'Sinatra',
             'Raspbian CronTab',
+            'Heroku'
+        ]
+    },
+    {
+        id: 5,
+        name: 'Network Notebook',
+        description: 'A web app designed to act as a contact wallet to organize and track professional connections.',
+        githubURL: 'https://github.com/tracedelange/network-notebook-frontend',
+        siteURL: 'https://network-notebook-frontend.herokuapp.com/login',
+        passiveImage: NN,
+        activeImage: NN,
+        tools: [
+            'React',
+            'Rails',
+            'JWT',
+            'PostgreSQL',
+            'Heroku'
+        ]
+    },
+    {
+        id: 6,
+        name: 'Monster Audience',
+        description: 'A social platform based around reviewing and rating user submitted subjects like movies, books, places and experiences.',
+        githubURL: 'https://github.com/tracedelange/monster-audience-web',
+        siteURL: 'https://monster-audience-web.herokuapp.com/landing',
+        passiveImage: NN,
+        activeImage: NN,
+        tools: [
+            'React',
+            'Rails',
+            'JWT',
+            'Web Sockets',
+            'PostgreSQL',
             'Heroku'
         ]
     },
