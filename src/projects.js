@@ -5,7 +5,7 @@ import CASHsign from './assets/images/sales-console.png'
 import wbcSales from './assets/images/logo.png'
 import bfb from './assets/images/bfb.png'
 import NN from './assets/images/NN.png'
-import MA from '../assets/images/MA.png'
+import MA from './assets/images/MA.png'
 
 const projects = [
     {
